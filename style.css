@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:rgb(255, 248, 235);
+}
+
+
+.logo{
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 35%;
+    border-radius: 50px;
+    margin: 5px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+
+}
+
+.nav-list{
+    width: 70%; 
+    display: flex; 
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+    font-weight:normal;
+    font-size: 25px;
+
+
+
+
+
+}
+
+.nav-list li a{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255) ;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.nav-list li a:hover{ 
+    color: rgb(0, 0, 0);
+}
+
+.rightNav{ 
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    outline: none;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/pexels-burst-374870.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+        height: 80%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    width: 130%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    height: 37vh;
+}
+
+.text-big{
+    font-size: 34px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.text-small{
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.btn{
+    padding: 4px 14px;
+    margin: 7px 3px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 8px; 
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.btn-sm{
+    padding: 5px 9px;
+    vertical-align: revert;
+    font-size: 16px;
+    border: 2px solid white(0, 0, 0);
+
+}
+
+/* .btn-dark{
+    color: black;
+        border: 2px solid orangered;    border: 3px solid rgb(255, 131, 86);
+
+} */
+.section{ 
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px; 
+}
+.sectiontag{
+    padding: 16px 0;
+}
+.section{
+    /* height: 400px; */
+    display: flex;
+    align-items: center;
+    max-width: 1196px;
+    justify-content: space-evenly;
+    margin: auto;
+    
+}
+.sectionleft{
+  flex-direction: row-reverse;
+}
+.imgflu img{
+    width: 300px;
+    height: 256px;
+    border-radius: 10px;
+    /* border: 4px solid black; */
+}
+.para{
+    padding: 0px 65px;
+}
+.contactus{
+    display: flex;
+    padding: 5px;
+    margin: 15px auto;
+    width: 80vw;
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 11px;
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.btn3{
+    display: block;
+    margin: 12px auto;
+    padding: 6px 25px;
+    font-size:20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 11px;
+
+}
+.hyper{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
+    margin: 9px;
+}
+.footer{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 21px;
+    font-family: 'Ubuntu', sans-serif;
+    height: 60px;
+}
+form{
+    margin: 20px;
+}
+#Complaintbox{
+    /* background-color: wheat; */
+  display: block;
+  margin: auto;
+  font-size: 21px;
+  font-family: 'Ubuntu', sans-serif;
+  border: 2px solid rgb(0, 0, 0);
+  width: 81vw;
+  border-radius: 11px;
+  outline: none;
+}
+.burger{
+    display: none;
+   position: absolute;
+   cursor: pointer;
+   right: 5%;
+   top: 15px;
+}
+.line{
+    width: 34px;
+    border-radius: 10px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+
